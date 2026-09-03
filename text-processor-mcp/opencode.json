@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "text-processor": {
+      "type": "local",
+      "command": [
+        "python3",
+        "/workspaces/context_course_repo/text-processor-mcp/server.py"
+      ],
+      "enabled": true
+    }
+  }
+}
